@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 32rem;
+  z-index: 10;
+  position: relative;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #7fdbff;
+  box-sizing: border-box;
+  padding: 6rem;
+  z-index: 10;
+  position: relative;
+  box-shadow: 0px 10px 32px 0px rgba(204, 204, 204, 1);
+}
+
+.footer {
+  height: 32rem;
+  padding: 6rem;
+  box-sizing: border-box;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
